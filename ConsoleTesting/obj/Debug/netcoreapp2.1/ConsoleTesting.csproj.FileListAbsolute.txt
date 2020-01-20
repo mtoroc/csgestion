@@ -1,0 +1,13 @@
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ConsoleTesting\bin\Debug\netcoreapp2.1\ConsoleTesting.deps.json
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ConsoleTesting\bin\Debug\netcoreapp2.1\ConsoleTesting.runtimeconfig.json
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ConsoleTesting\bin\Debug\netcoreapp2.1\ConsoleTesting.runtimeconfig.dev.json
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ConsoleTesting\bin\Debug\netcoreapp2.1\ConsoleTesting.dll
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ConsoleTesting\bin\Debug\netcoreapp2.1\ConsoleTesting.pdb
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ConsoleTesting\bin\Debug\netcoreapp2.1\ApplicationCore.dll
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ConsoleTesting\bin\Debug\netcoreapp2.1\ApplicationCore.pdb
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ConsoleTesting\obj\Debug\netcoreapp2.1\ConsoleTesting.csprojAssemblyReference.cache
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ConsoleTesting\obj\Debug\netcoreapp2.1\ConsoleTesting.AssemblyInfoInputs.cache
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ConsoleTesting\obj\Debug\netcoreapp2.1\ConsoleTesting.AssemblyInfo.cs
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ConsoleTesting\obj\Debug\netcoreapp2.1\ConsoleTesting.csproj.CopyComplete
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ConsoleTesting\obj\Debug\netcoreapp2.1\ConsoleTesting.dll
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ConsoleTesting\obj\Debug\netcoreapp2.1\ConsoleTesting.pdb

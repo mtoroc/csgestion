@@ -1,0 +1,8 @@
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ApplicationCore\bin\Debug\netcoreapp2.1\ApplicationCore.deps.json
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ApplicationCore\bin\Debug\netcoreapp2.1\ApplicationCore.dll
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ApplicationCore\bin\Debug\netcoreapp2.1\ApplicationCore.pdb
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ApplicationCore\obj\Debug\netcoreapp2.1\ApplicationCore.csprojAssemblyReference.cache
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ApplicationCore\obj\Debug\netcoreapp2.1\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ApplicationCore\obj\Debug\netcoreapp2.1\ApplicationCore.AssemblyInfo.cs
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ApplicationCore\obj\Debug\netcoreapp2.1\ApplicationCore.dll
+C:\Users\developer\Desktop\CSGestion\repo\csgestion\ApplicationCore\obj\Debug\netcoreapp2.1\ApplicationCore.pdb

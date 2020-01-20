@@ -1,0 +1,133 @@
+﻿
+<div clas="content-helper" style="padding-top:2.5em;">
+
+    <div class="row">
+        <div class="offset-10 col-2">
+            <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#myModal">Agregar solicitud</button>
+        </div>
+    </div>
+    <br />
+
+    <div class="row">
+        <h2>Tabla bootstrap</h2>
+        <div class="col-12">
+            <table class="table table-hover">
+                <thead>
+                    <tr class="table-active">
+                        <th scope="col">#</th>
+                        <th scope="col">Sector</th>
+                        <th scope="col">Fecha inicio</th>
+                        <th scope="col">Fecha termino</th>
+                        <th scope="col">Rut</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Casa / Depto</th>
+                        <th scope="col">Ubicación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Sala eventos A</td>
+                        <td>19/01/2019 10:00</td>
+                        <td>19/01/2019 19:00</td>
+                        <td>5.555.555-5</td>
+                        <td>Ernesto Alvarez Toledo</td>
+                        <td>302</td>
+                        <td>Torre Mahuida</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Sala eventos B</td>
+                        <td>19/01/2019 10:00</td>
+                        <td>19/01/2019 15:00</td>
+                        <td>7.777.777-7</td>
+                        <td>Miguel Toro Cares</td>
+                        <td>35</td>
+                        <td>Torre B</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Sala eventos B</td>
+                        <td>19/01/2019 16:00</td>
+                        <td>19/01/2019 20:00</td>
+                        <td>8.888.888-8</td>
+                        <td>Jorge Mendez Fredes</td>
+                        <td>Casa 01</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <hr />
+    <div class="row">
+        <h2>Tabla jquery datatables</h2>
+        <div class="col-12 table-responsive">
+            <table class="table table-hover" id="miTabla">
+                <thead>
+                    <tr class="table-active">
+                        <th scope="col">#</th>
+                        <th scope="col">Sector</th>
+                        <th scope="col">Fecha inicio</th>
+                        <th scope="col">Fecha termino</th>
+                        <th scope="col">Rut</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Casa / Depto</th>
+                        <th scope="col">Ubicación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Sala eventos A</td>
+                        <td>19/01/2019 10:00</td>
+                        <td>19/01/2019 19:00</td>
+                        <td>5.555.555-5</td>
+                        <td>Ernesto Alvarez Toledo</td>
+                        <td>302</td>
+                        <td>Torre Mahuida</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Sala eventos B</td>
+                        <td>19/01/2019 10:00</td>
+                        <td>19/01/2019 15:00</td>
+                        <td>7.777.777-7</td>
+                        <td>Miguel Toro Cares</td>
+                        <td>35</td>
+                        <td>Torre B</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Sala eventos B</td>
+                        <td>19/01/2019 16:00</td>
+                        <td>19/01/2019 20:00</td>
+                        <td>8.888.888-8</td>
+                        <td>Jorge Mendez Fredes</td>
+                        <td>Casa 01</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+@*Modals*@
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <partial name="Agregar" />
+    </div>
+</div>
+
+
+@section scripts {
+
+    <script src="~/js/registro-solicitud/index.js"></script>
+}
+
+
+
+
