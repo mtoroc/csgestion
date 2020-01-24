@@ -4775,11 +4775,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\developer\\Desktop\\CSGestion\\repo\\csgestion\\ApplicationCore\\ApplicationCore.csproj",
+      "projectUniqueName": "C:\\Users\\developer\\Desktop\\CSGestion\\repositorio\\csgestion\\ApplicationCore\\ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "C:\\Users\\developer\\Desktop\\CSGestion\\repo\\csgestion\\ApplicationCore\\ApplicationCore.csproj",
+      "projectPath": "C:\\Users\\developer\\Desktop\\CSGestion\\repositorio\\csgestion\\ApplicationCore\\ApplicationCore.csproj",
       "packagesPath": "C:\\Users\\developer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\developer\\Desktop\\CSGestion\\repo\\csgestion\\ApplicationCore\\obj\\",
+      "outputPath": "C:\\Users\\developer\\Desktop\\CSGestion\\repositorio\\csgestion\\ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\developer\\AppData\\Roaming\\NuGet\\NuGet.Config",

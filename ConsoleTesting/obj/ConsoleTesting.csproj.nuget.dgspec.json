@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\developer\\Desktop\\CSGestion\\repo\\csgestion\\ConsoleTesting\\ConsoleTesting.csproj": {}
+    "C:\\Users\\developer\\Desktop\\CSGestion\\repositorio\\csgestion\\ConsoleTesting\\ConsoleTesting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\developer\\Desktop\\CSGestion\\repo\\csgestion\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\developer\\Desktop\\CSGestion\\repositorio\\csgestion\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\developer\\Desktop\\CSGestion\\repo\\csgestion\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\developer\\Desktop\\CSGestion\\repositorio\\csgestion\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\developer\\Desktop\\CSGestion\\repo\\csgestion\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\developer\\Desktop\\CSGestion\\repositorio\\csgestion\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\developer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\developer\\Desktop\\CSGestion\\repo\\csgestion\\ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\developer\\Desktop\\CSGestion\\repositorio\\csgestion\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\developer\\Desktop\\CSGestion\\repo\\csgestion\\ConsoleTesting\\ConsoleTesting.csproj": {
+    "C:\\Users\\developer\\Desktop\\CSGestion\\repositorio\\csgestion\\ConsoleTesting\\ConsoleTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\developer\\Desktop\\CSGestion\\repo\\csgestion\\ConsoleTesting\\ConsoleTesting.csproj",
+        "projectUniqueName": "C:\\Users\\developer\\Desktop\\CSGestion\\repositorio\\csgestion\\ConsoleTesting\\ConsoleTesting.csproj",
         "projectName": "ConsoleTesting",
-        "projectPath": "C:\\Users\\developer\\Desktop\\CSGestion\\repo\\csgestion\\ConsoleTesting\\ConsoleTesting.csproj",
+        "projectPath": "C:\\Users\\developer\\Desktop\\CSGestion\\repositorio\\csgestion\\ConsoleTesting\\ConsoleTesting.csproj",
         "packagesPath": "C:\\Users\\developer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\developer\\Desktop\\CSGestion\\repo\\csgestion\\ConsoleTesting\\obj\\",
+        "outputPath": "C:\\Users\\developer\\Desktop\\CSGestion\\repositorio\\csgestion\\ConsoleTesting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,8 +90,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\developer\\Desktop\\CSGestion\\repo\\csgestion\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\developer\\Desktop\\CSGestion\\repo\\csgestion\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\developer\\Desktop\\CSGestion\\repositorio\\csgestion\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\developer\\Desktop\\CSGestion\\repositorio\\csgestion\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
