@@ -29,4 +29,15 @@ $(document).ready(function () {
             */
         }
     });
+
+    $(function () {
+        $('.input-group.date').datepicker({
+            clearBtn: true,
+            language: "es",
+            orientation: "bottom left",
+            startDate: '-3d',
+            todayHighlight: true,
+            daysOfWeekHighlighted: "0,6",
+        });
+    });
 });

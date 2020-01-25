@@ -4,9 +4,11 @@
 
 # Visual Studio 2019
 .vs/
+/.vs/
+**/obj/
+**/bin/
 # packages/
-#**/obj/
-#**/bin/
+
 
 
 # User-specific files
