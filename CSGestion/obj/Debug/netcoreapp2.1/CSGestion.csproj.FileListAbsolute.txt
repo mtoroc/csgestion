@@ -52,7 +52,6 @@ C:\Users\developer\Desktop\CSGestion\repositorio\csgestion\CSGestion\obj\Debug\n
 C:\Users\developer\Desktop\CSGestion\repositorio\csgestion\CSGestion\obj\Debug\netcoreapp2.1\CSGestion.TagHelpers.input.cache
 C:\Users\developer\Desktop\CSGestion\repositorio\csgestion\CSGestion\obj\Debug\netcoreapp2.1\CSGestion.TagHelpers.output.cache
 C:\Users\developer\Desktop\CSGestion\repositorio\csgestion\CSGestion\obj\Debug\netcoreapp2.1\CSGestion.RazorCoreGenerate.cache
-C:\Users\developer\Desktop\CSGestion\repositorio\csgestion\CSGestion\obj\Debug\netcoreapp2.1\Razor\Views\RegistroSolicitud\Agregar.cshtml.g.cs
 C:\Users\developer\Desktop\CSGestion\repositorio\csgestion\CSGestion\obj\Debug\netcoreapp2.1\Razor\Views\RegistroSolicitud\Index.cshtml.g.cs
 C:\Users\developer\Desktop\CSGestion\repositorio\csgestion\CSGestion\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\developer\Desktop\CSGestion\repositorio\csgestion\CSGestion\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -66,3 +65,4 @@ C:\Users\developer\Desktop\CSGestion\repositorio\csgestion\CSGestion\obj\Debug\n
 C:\Users\developer\Desktop\CSGestion\repositorio\csgestion\CSGestion\obj\Debug\netcoreapp2.1\CSGestion.csproj.CopyComplete
 C:\Users\developer\Desktop\CSGestion\repositorio\csgestion\CSGestion\obj\Debug\netcoreapp2.1\CSGestion.dll
 C:\Users\developer\Desktop\CSGestion\repositorio\csgestion\CSGestion\obj\Debug\netcoreapp2.1\CSGestion.pdb
+C:\Users\developer\Desktop\CSGestion\repositorio\csgestion\CSGestion\obj\Debug\netcoreapp2.1\Razor\Views\RegistroSolicitud\Components\RegistroSolicitudComponent\Agregar.cshtml.g.cs

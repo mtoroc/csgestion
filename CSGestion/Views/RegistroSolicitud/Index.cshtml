@@ -69,7 +69,9 @@
 @*Modals*@
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-keyboard="false" data-backdrop="static">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <partial name="Agregar" />
+        @*<partial name="Agregar" />*@
+        @await Component.InvokeAsync("RegistroSolicitudComponent", "Agregar")
+        @*@await Html.PartialAsync("Agregar")*@
     </div>
 </div>
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CSGestion.Models.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,12 +26,16 @@ namespace CSGestion.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Agregar(IFormCollection collection)
+        //[ValidateAntiForgeryToken]
+        public ActionResult Agregar(RegistroSolicitudViewModel model)
         {
             try
             {
-                // TODO: Add insert logic here
+
+                if (ModelState.IsValid)
+                {
+
+                }
 
                 return RedirectToAction(nameof(Index));
             }
@@ -86,6 +91,16 @@ namespace CSGestion.Controllers
         public IActionResult Error()
         {
             return View(new Models.ErrorViewModel { RequestId = System.Diagnostics.Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+    }
+
+    public class RegistroSolicitudComponent : ViewComponent
+    {
+        public IViewComponentResult Invoke(string view)
+        {
+            var model = new RegistroSolicitudViewModel();
+
+            return View(view, model);
         }
     }
 }

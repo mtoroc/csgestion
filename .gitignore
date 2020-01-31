@@ -7,6 +7,8 @@
 /.vs/
 **/obj/
 **/bin/
+[Bb]in/
+[Oo]bj/
 # packages/
 
 
