@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\js\common-component\" />
     <Folder Include="wwwroot\lib\bootstrap-4.3.1\" />
   </ItemGroup>
 

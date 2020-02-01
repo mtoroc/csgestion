@@ -12,16 +12,20 @@ namespace CSGestion.Models.ViewModels
         [Required(ErrorMessage = "Seleccione un sector")]
         public int IdSector { get; set; }
 
+        [Required(ErrorMessage = "Ingrese hora de inicio")]
         public string FechaHoraInicio { get; set; }
 
+        [Required(ErrorMessage = "Ingrese hora de finalización")]
         public string FechaHoraFin { get; set; }
 
         [Display(Name = "Rut solicitante *")]
-        [Required(ErrorMessage = "Ingrese el Rut del solicitante")]
+        [Required(ErrorMessage = "Ingrese el rut del solicitante")]
         public string RutSolicitante { get; set; }
 
+        [Required(ErrorMessage = "Ingrese el nombre del solicitante")]
         public string NombreSolicitante { get; set; }
 
+        [Required(ErrorMessage = "Ingrese casa o departamento")]
         public string CasaDepto { get; set; }
 
         public string Ubicacion { get; set; }

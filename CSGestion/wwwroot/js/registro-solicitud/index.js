@@ -31,6 +31,7 @@ $(document).ready(function () {
     });
 
     $(function () {
+
         $('.input-group.date').datepicker({
             clearBtn: true,
             language: "es",
@@ -39,5 +40,14 @@ $(document).ready(function () {
             todayHighlight: true,
             daysOfWeekHighlighted: "0,6",
         });
+
+    });
+
+    $(function () {
+
+        $('.form-reset').click(function () {
+            $(this).resetValidation();
+        });
+
     });
 });
