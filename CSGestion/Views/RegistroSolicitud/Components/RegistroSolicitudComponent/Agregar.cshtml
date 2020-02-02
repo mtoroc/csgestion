@@ -30,8 +30,7 @@
                     <div class="input-group date">
                         @Html.TextBoxFor(m => m.FechaHoraInicio, new { @class = "form-control" })
                         <div class="input-group-addon">
-                            @*TODO: mtoroc, por algun motivo no me esta reconociendo las fuentes glyphicon*@
-                            <span class="glyphicon glyphicon-th"></span>
+                            <span class="far fa-calendar-alt fa-2x"></span>
                         </div>
                     </div>
                     @Html.ValidationMessageFor(m => m.FechaHoraInicio, null, new { @class = "text-danger" })
@@ -41,7 +40,7 @@
                     <div class="input-group date">
                         @Html.TextBoxFor(m => m.FechaHoraFin, new { @class = "form-control" })
                         <div class="input-group-addon">
-                            <span class="glyphicon glyphicon-th"></span>
+                            <span class="far fa-calendar-alt fa-2x"></span>
                         </div>
                     </div>
                     @Html.ValidationMessageFor(m => m.FechaHoraFin, null, new { @class = "text-danger" })
