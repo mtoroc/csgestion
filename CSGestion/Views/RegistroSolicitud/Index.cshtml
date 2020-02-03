@@ -3,7 +3,9 @@
 
         <div class="row">
             <div class="offset-10 col-2">
-                <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#myModal">Agregar solicitud</button>
+                <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#myModal">Agregar solicitud view component</button>
+                <button type="button" class="btn btn-primary float-right" id="btnAgregarSolicitud">Agregar solicitud view</button>
+                
             </div>
         </div>
         <br />
@@ -78,8 +80,15 @@
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-keyboard="false" data-backdrop="static">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         @*<partial name="Agregar" />*@
-        @await Component.InvokeAsync("RegistroSolicitudComponent", "Agregar")
         @*@await Html.PartialAsync("Agregar")*@
+
+        @await Component.InvokeAsync("RegistroSolicitudComponent", "Agregar")
+    </div>
+</div>
+
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document" id="innerModal">
+
     </div>
 </div>
 

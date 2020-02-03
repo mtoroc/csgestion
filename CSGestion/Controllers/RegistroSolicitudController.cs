@@ -20,9 +20,18 @@ namespace CSGestion.Controllers
             return View();
         }
 
-        public ActionResult Agregar()
+        //public ActionResult Agregar()
+        public async Task<ActionResult> Agregar()
         {
-            return View();
+            
+            var t = await Task.Run(() => {
+
+                var model = new RegistroSolicitudViewModel();
+
+                return model;
+            }).ConfigureAwait(false);
+
+            return View(t);
         }
 
         [HttpPost]
@@ -34,18 +43,20 @@ namespace CSGestion.Controllers
 
                 if (ModelState.IsValid)
                 {
-
+                    throw new Exception("error forzado");
                 }
                 else
                 {
-
+                    return PartialView(model);
                 }
 
                 return RedirectToAction(nameof(Index));
             }
-            catch
+            catch (Exception e)
             {
-                return View();
+                ModelState.AddModelError("IdSector", "Un error cualquiera: " + e.Message);
+
+                return PartialView(model);
             }
         }
 
