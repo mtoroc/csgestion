@@ -43,7 +43,6 @@ namespace CSGestion.Models.ViewModels
             }
         }
 
-
         public SelectList UbicacionList
         {
             get
@@ -56,6 +55,7 @@ namespace CSGestion.Models.ViewModels
             }
         }
 
+        public bool WithError { get; set; }
 
         public class Dummy
         {

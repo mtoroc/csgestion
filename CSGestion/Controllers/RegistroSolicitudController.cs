@@ -21,21 +21,28 @@ namespace CSGestion.Controllers
         }
 
         //public ActionResult Agregar()
+        //{ 
+        //    var model = new RegistroSolicitudViewModel();
+
+        //    return PartialView(model);
+        //}
+
         public async Task<ActionResult> Agregar()
         {
-            
-            var t = await Task.Run(() => {
+
+            var t = await Task.Run(() =>
+            {
 
                 var model = new RegistroSolicitudViewModel();
 
                 return model;
             }).ConfigureAwait(false);
 
-            return View(t);
+            return PartialView(t);
         }
 
         [HttpPost]
-        //[ValidateAntiForgeryToken]
+        [ValidateAntiForgeryToken]
         public ActionResult Agregar(RegistroSolicitudViewModel model)
         {
             try
@@ -54,7 +61,8 @@ namespace CSGestion.Controllers
             }
             catch (Exception e)
             {
-                ModelState.AddModelError("IdSector", "Un error cualquiera: " + e.Message);
+                ModelState.AddModelError("", "Un error cualquiera: " + e.Message);
+                model.WithError = true;
 
                 return PartialView(model);
             }
@@ -109,13 +117,14 @@ namespace CSGestion.Controllers
         }
     }
 
-    public class RegistroSolicitudComponent : ViewComponent
-    {
-        public IViewComponentResult Invoke(string view)
-        {
-            var model = new RegistroSolicitudViewModel();
+    //TODO: mtoroc, se recomienda mantener codigo para reutilizarlo en comportamiento estatico de vistas a traves de viewcomponente
+    //public class RegistroSolicitudComponent : ViewComponent
+    //{
+    //    public IViewComponentResult Invoke(string view)
+    //    {
+    //        var model = new RegistroSolicitudViewModel();
 
-            return View(view, model);
-        }
-    }
+    //        return View(view, model);
+    //    }
+    //}
 }

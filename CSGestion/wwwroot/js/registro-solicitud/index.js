@@ -51,7 +51,6 @@ $(document).ready(function () {
 
     });
 
-
     $('#btnAgregarSolicitud').click(function () {
 
         var url = "RegistroSolicitud/Agregar";
@@ -63,45 +62,15 @@ $(document).ready(function () {
             complete: function () { },
             success: function (response) {
 
-                $('#innerModal').html(response);
+                $('#myModal').html(response);
                 $("#myModal").modal('show');  
+                console.log("myModal");
             },
             error: function (xhr, status) {
 
                 alert("error");
             }
         });
-    });
-
-    $("#formAgregar").submit(function (e) {
-
-        e.preventDefault();
-
-        var form = $('#formAgregar');
-        $.validator.unobtrusive.parse('#formAgregar');
-
-        if (form.valid()) {
-
-            var url = "RegistroSolicitud/Agregar";
-            var data = $('#formAgregar').serialize();
-
-            $.ajax({
-                type: 'POST',
-                url: url,
-                data: data,
-                beforeSend: function () { },
-                complete: function () { },
-                success: function (response) {
-
-                    $('#modalContent').html(response);
-                },
-                error: function (xhr, status) {
-
-                    alert("error");
-                }
-            });
-        }
-
     });
 
 });
